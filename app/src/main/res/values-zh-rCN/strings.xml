@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoLua</string>
+    <string name="accessibility_description">负责管理脚本执行的无障碍服务</string>
+    <string name="action_bar_exec_notification_text">执行（带通知）</string>
+    <string name="notification_warn_title">正在执行操作</string>
+    <string name="notification_warn_message">单击通知可以停止执行 最好不要在执行时操作屏幕</string>
+    <string name="title_home">主页</string>
+    <string name="title_help">帮助</string>
+    <string name="title_settings">设置</string>
+    <string name="title_doc">文档</string>
+    <string name="navigation_code">代码</string>
+    <string name="navigation_control">控制</string>
+    <string name="button_save">保存</string>
+    <string name="settings_scheduled_title">定时执行</string>
+    <string name="settings_scheduled_enable_title">定时执行</string>
+    <string name="settings_scheduled_enable_summary">启用定时执行</string>
+    <string name="settings_scheduled_time_title">定时执行时间</string>
+    <string name="settings_scheduled_time_summary">一天中定时执行的时间</string>
+    <string name="notification_channel_name">打卡警报</string>
+    <string name="notification_channel_description">自动打卡前的提醒</string>
+    <string name="frag_control_textview_tag">错误信息（最新的在最底部）：</string>
+    <string name="control_exec_button">执行</string>
+    <string name="settings_service_title">服务</string>
+    <string name="settings_service_enable_action_bar_title">启用浮动栏</string>
+    <string name="settings_service_enable_action_bar_desc">在屏幕顶部展示浮动栏</string>
+    <string name="manifest_accsrv_label">脚本执行服务</string>
+    <string name="toast_script_error">脚本出错！</string>
+    <string name="control_refresh_button">刷新错误信息</string>
+    <string name="dialog_clean_log_title">确认清除</string>
+    <string name="dialog_clean_log_message">确定要清除错误记录吗？</string>
+    <string name="settings_manage_title">管理</string>
+    <string name="settings_manage_clean_log_title">清除错误日志</string>
+    <string name="settings_manage_clean_log_desc">清除“控制”栏中积累的错误日志。</string>
+    <string name="dialog_clean_log_fail">清除失败</string>
+    <string name="dialog_clean_log_success">清除成功</string>
+    <string name="toast_accsrv_on_interrupt">操作中断了?</string>
+    <string name="exception_interrupt">用户中断了脚本执行</string>
+    <string name="toast_accsrv_disable">无障碍服务没有在设置中开启</string>
+    <string name="toast_accsrv_startApp_failed">打开APP失败</string>
+    <string name="toast_accsrv_on_connected">连接上了</string>
+    <string name="action_bar_exec_text">启动执行</string>
+    <string name="control_exec_notification_button">模拟定时执行（带通知和延时）</string>
+    <string name="action_bar_interrupt_text">中断</string>
+</resources>

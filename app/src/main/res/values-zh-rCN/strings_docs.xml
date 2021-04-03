@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="doc_titles">
+        <item>教程</item>
+        <item>函数文档</item>
+        <item>常见问题</item>
+    </string-array>
+    <string-array
+        name="doc_urls">
+        <item>file:///android_asset/tutorial.html</item>
+        <item>file:///android_asset/functions.html</item>
+        <item>file:///android_asset/FAQ.html</item>
+    </string-array>
+</resources>

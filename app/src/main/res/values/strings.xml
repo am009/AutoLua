@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">AutoLua</string>
+    <string name="accessibility_description">An accessibility service for script executing.</string>
+    <string name="action_bar_exec_notification_text">Execute(Notofication)</string>
+    <string name="action_bar_exec_text">Execute</string>
+    <string name="notification_warn_title">Executing task.</string>
+    <string name="notification_warn_message">Click notification to stop. Don\'t operate while executing.</string>
+    <string name="notification_channel_name">TaskWarning</string>
+    <string name="notification_channel_description">Warning before task.</string>
+    <string name="title_home">Home</string>
+    <string name="title_help">Help</string>
+    <string name="title_settings">Settings</string>
+
+
+    <string name="title_doc">Doc</string>
+    <string name="navigation_code">Code</string>
+    <string name="navigation_control">Control</string>
+    <string name="button_save">Save</string>
+    <string name="settings_scheduled_title">Scheduled Execute</string>
+    <string name="settings_scheduled_enable_title">Enable Schedule</string>
+    <string name="settings_scheduled_enable_summary">Enable scheduled execute</string>
+    <string name="settings_scheduled_time_title">Scheduled Time</string>
+    <string name="settings_scheduled_time_summary">time of the day scheduled to execute task</string>
+    <string name="frag_control_textview_tag">Error Message (latest at bottom):</string>
+    <string name="control_exec_button">Execute Code</string>
+    <string name="settings_service_title">Service</string>
+    <string name="settings_service_enable_action_bar_title">Enable Action Bar</string>
+    <string name="settings_service_enable_action_bar_desc">Show a Floating Bar on top</string>
+    <string name="manifest_accsrv_label">Script Service</string>
+    <string name="toast_script_error">Script Error!</string>
+    <string name="control_refresh_button">Refresh Error Message</string>
+    <string name="dialog_clean_log_title">Confirm Clean</string>
+    <string name="dialog_clean_log_message">Are you sure to clean error log?</string>
+    <string name="settings_manage_title">Management</string>
+    <string name="settings_manage_clean_log_title">Clean Error Log</string>
+    <string name="settings_manage_clean_log_desc">Clean saved log in control textview.</string>
+    <string name="dialog_clean_log_fail">Clean Failed</string>
+    <string name="dialog_clean_log_success">Cleaned</string>
+    <string name="exception_interrupt">User interrupted script execution.</string>
+    <string name="toast_accsrv_disable">AccessibilityService not enable in settings.</string>
+    <string name="toast_accsrv_on_interrupt">on interrupt</string>
+    <string name="toast_accsrv_startApp_failed">Open app failed</string>
+    <string name="toast_accsrv_on_connected">Connected.</string>
+    <string name="control_exec_notification_button">Execute with Notification</string>
+    <string name="action_bar_interrupt_text">Interrupt</string>
+</resources>

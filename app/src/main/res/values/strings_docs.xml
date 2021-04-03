@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="doc_titles">
+        <item>Tutorial</item>
+        <item>Functions</item>
+        <item>FAQ</item>
+    </string-array>
+    <string-array
+        name="doc_urls">
+        <item>file:///android_asset/tutorial.html</item>
+        <item>file:///android_asset/functions.html</item>
+        <item>file:///android_asset/FAQ.html</item>
+    </string-array>
+</resources>

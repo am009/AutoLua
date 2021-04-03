@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/settings_scheduled_title">
+
+        <moe.wjk.autolua.settings.TimePreference
+            app:key="scheduled_time"
+            app:title="@string/settings_scheduled_time_title"
+            app:summary="@string/settings_scheduled_time_summary" />
+
+        <moe.wjk.autolua.settings.EnableSchedulePreference
+            app:key="scheduled_enable"
+            app:title="@string/settings_scheduled_enable_title"
+            app:summary="@string/settings_scheduled_enable_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/settings_service_title">
+        <SwitchPreferenceCompat
+            app:key="enable_action_bar"
+            app:title="@string/settings_service_enable_action_bar_title"
+            app:summary="@string/settings_service_enable_action_bar_desc"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/settings_manage_title">
+        <moe.wjk.autolua.settings.DeleteLogDialogPreference
+            app:key="delete_log"
+            app:title="@string/settings_manage_clean_log_title"
+            app:summary="@string/settings_manage_clean_log_desc"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
